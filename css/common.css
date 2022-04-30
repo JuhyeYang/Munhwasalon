@@ -4,9 +4,9 @@
 /*===========================================================================
     CSS 초기화
 ============================================================================*/
-* { font-family: 'Roboto', 'Open Sans', 'Noto Sans KR', sans-serif; box-sizing: border-box; margin: 0; padding: 0; } 
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, em, img, strong, b, i, dl, dt, dd, ol, ul, li, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, footer, header, menu, nav, section, video, a { border: 0; outline: 0; font-size: 16px; color: #191919; line-height: 1.5; scroll-behavior: smooth; letter-spacing: -0.6px; } 
 body { line-height: 1; } 
+* { font-family: 'Roboto', 'Open Sans', 'Noto Sans KR', sans-serif; box-sizing: border-box; margin: 0; padding: 0; } 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; } 
 ul, ol, li { list-style: none; } 
 strong { display: inline-block; } 
@@ -37,4 +37,4 @@ pre { display: inline-block; white-space: pre-wrap; }
     공통요소
 ============================================================================*/
 .container { width: 1240px; height: 100%; margin-left: auto; margin-right: auto; } 
-main .tit { font-size: 24px; color: #222; font-weight: 700; line-height: 1.16; }
+main .tit { font-size: 24px; color: #222; font-weight: 500; line-height: 1.16; }
